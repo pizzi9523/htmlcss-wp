@@ -18,24 +18,11 @@ body{
 }
 
 /* Debug  */
-.debug .site_header{
-  height: 100px;
-  background-color:#E579E6 ;
-}
-
-.debug .primary{
-  height: 450px;
-  background-color: #E1D67A ;
-}
 
 .debug .secondary{
   background-color: #0086FF;
 }
 
-.debug .secondary_header{
-  height: 50px;
-  background-color: #ABCFE7;
-}
 
 .debug .sidebar, .debug .content{
   height: 650px;
@@ -65,6 +52,8 @@ body{
   font-size: 1.3rem;
 }
 /* Main  */
+
+/* Primary  */
 .primary{
   background-image: url("../img/banner.jpg");
   background-size: cover;
@@ -76,7 +65,7 @@ body{
 
 .primary .mask{
   height: 100%;
-  background-color: rgba(50, 50, 100, 0.3);
+  background-color: rgba(0, 10, 10, 0.2);
   border-radius: 1rem;
 }
 
@@ -94,6 +83,53 @@ body{
 font-size: 1.3rem;
 }
 
+/* Secondary */
+.secondary p{
+  color: #8A8A8A;
+}
+
+.secondary h4{
+  padding: 1rem 0;
+  font-weight: 600;
+}
+
+.secondary_header{
+  margin: 2.5rem 0 1rem 0;
+}
+
+.secondary_header > h1{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+
+
+.left .image{
+  background-image: url("../img/img-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 16rem;
+}
+
+.mask{
+  height: 100%;
+  background-color: rgba(0, 10, 10, 0.2);
+  border-radius: 0.7rem;
+}
+
+.content .image{
+ background-image: url("../img/banner-2.jpg");
+ background-size: cover;
+ background-position: center;
+ height: 16rem;
+ }
+
+.right .image{
+  background-image: url("../img/img-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16rem;
+}
 
 .sidebar, .content{
   float: left;
